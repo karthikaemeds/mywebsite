@@ -1,13 +1,12 @@
 export default async function decorate(block) {
   // Map dropdown value → sheet JSON
   const CONTINENT_SHEETS = {
-  Asia: '/countries.json?sheet=asia',
-  Europe: '/countries.json?sheet=europe',
-  America: '/countries.json?sheet=america',
-  Africa: '/countries.json?sheet=africa',
-  Australia: '/countries.json?sheet=australia',
-};
-
+    Asia: '/countries.json?sheet=asia',
+    Europe: '/countries.json?sheet=europe',
+    America: '/countries.json?sheet=america',
+    Africa: '/countries.json?sheet=africa',
+    Australia: '/countries.json?sheet=australia',
+  };
 
   // Clear authored content
   block.innerHTML = '';
