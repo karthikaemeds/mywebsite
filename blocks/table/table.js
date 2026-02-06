@@ -70,7 +70,6 @@ export default async function decorate(block) {
       });
 
       table.appendChild(tbody);
-
     } catch (e) {
       console.error('Table load error:', e);
     }
